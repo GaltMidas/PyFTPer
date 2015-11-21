@@ -10,9 +10,9 @@ pip install path.py
 test installs:
 
 $ python <br />
->>> import Crypto <br />
->>> import paramiko <br />
->>> import pysftp
+import Crypto <br />
+import paramiko <br />
+import pysftp
 
 troubleshoot installs:
 
