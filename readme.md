@@ -2,15 +2,27 @@ Python 2.7.6
 
 may require sudo privileges
 
-pip install pycrypto
-pip install paramiko
-pip install pysftp
+pip install pycrypto <br />
+pip install paramiko <br />
+pip install pysftp <br />
 pip install path.py
+
+test installs:
+
+$ python <br />
+>>> import Crypto <br />
+>>> import paramiko <br />
+>>> import pysftp
+
+troubleshoot installs:
+
+if can't pip install try this first, <br />
+$ apt-get install python-dev
 
 setup:
 
-$ cd bin
-$ chmod +x doitall
+$ cd bin <br />
+$ chmod +x ftper
 
 if /usr/local/bin does not exist, create it
 
@@ -26,4 +38,4 @@ test setup:
 
 $ ftper -h
 
-help should display
+should display the help
