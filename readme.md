@@ -21,7 +21,6 @@ $ apt-get install python-dev
 
 setup:
 
-$ cd bin <br />
 $ chmod +x ftper
 
 if /usr/local/bin does not exist, create it
