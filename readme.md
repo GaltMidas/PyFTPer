@@ -2,9 +2,7 @@ Python 2.7.6
 
 may require sudo privileges
 
-pip install pycrypto <br />
 pip install paramiko <br />
-pip install pysftp <br />
 pip install path.py
 
 test installs:
@@ -12,11 +10,10 @@ test installs:
 $ python <br />
 import Crypto <br />
 import paramiko <br />
-import pysftp
 
 troubleshoot installs:
 
-if can't pip install try this first, <br />
+if can't get pip installed or pip install not working, try this first, <br />
 $ apt-get install python-dev
 
 setup:
